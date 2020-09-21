@@ -1,0 +1,101 @@
+body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(/images/bg-intro-desktop.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: crimson;
+}
+
+.left {
+    display: inline-block;
+    float:left;
+    width: 32%;
+    margin-top: 200px;
+    margin-left: 160px;
+    padding-bottom: 70px;
+    color: #ffffff;
+}
+
+    h1 {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+        .under-text {
+            margin-top: 20px;
+        }
+
+.right {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin-top: 200px;
+}
+.right-column {
+        padding-bottom: 29px;
+        background-color: white;
+        padding-top: 27px;
+        border-radius: 8px;
+}
+
+
+input {
+    padding: 7px;
+    width: 87%;
+    padding-left: 37px;
+    border-radius: 5px;
+    text-align: justify;
+    padding-bottom: 19px;
+    /* border-bottom: 10px solid white; */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+    h3 {
+    display: inline-block;
+    margin-bottom: 40px;
+    background-color: darkblue;
+    color: white;
+    padding-left: 98px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 77px;
+    width: max-content;
+    border-radius: 5px;
+    font-size: 15px;
+    }
+    .button {
+        text-decoration: none;
+        /* margin-bottom: -19px; */
+        padding-bottom: 14px;
+        padding-top: 14px;
+        padding-right: 115px;
+        padding-left: 120px;
+        line-height: 78px;
+        background-color: green;
+        color: #ffffff;
+        border-radius: 5px;
+        font-stretch: unset;
+    }
+  
+    .a-text {
+        margin-top: 50px;
+        color: white;
+        font-size: 10px;
+    }
+        .termsas {
+        text-decoration: none;
+        color: green;
+    }
+    .potekste {
+    font-size: 13px;
+}
